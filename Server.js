@@ -1,7 +1,6 @@
 // Linking my dependancies with the Server
 const express = require("express");
 const mongoose = require("mongoose");
-const User = require("./models/User")
 const bodyParser = require("body-parser");
 
 // setting up an instance for Express.js and listening to port 8000
